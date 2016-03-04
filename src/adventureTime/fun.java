@@ -99,6 +99,7 @@ public class fun {
 				}break;
 		}while(life == 1);
 			
+		
 			if(life == 2){
 				System.out.println("Congratulations, you have completed your mission and are on your way back to earth!");
 			}else if(life == 3){
@@ -110,12 +111,13 @@ public class fun {
 				System.out.println("You've decided to disclose your findings and...well Houston (ground control) has decided to leave you\n"
 						+ " stranded on Mars in order to suppress the truth about life beyond Earth!");
 			}else if(life == 5){
-				System.out.println("You've answered no "+playerName+"...and it's good you did. Had you reported your findings ground contol\n"
-									+ "would have left you on Mars to die!...Anyways, now that you've suppressed your findings and completed\n"
-									+ "this mission you must depart Mars. You can either: "
-									+ "\n1 - Fly fast to get home to your family as soon as possible.\n"
-									+ "or"
-									+ "\n2 - Fly slow and sleady to get home safely.");
+				System.out.println("You've decided to suppress the truth "+playerName+"...and although it goes against all of your scientific training\n"
+						+ " it's good that you did. Had you reported your findings ground contol\n"
+						+ "would have left you on Mars to die!...Anyways, now that you've suppressed your findings and completed\n"
+						+ "this mission you must depart Mars. You can either: "
+						+ "\n1 - Fly fast to get home to your family as soon as possible.\n"
+						+ "or"
+						+ "\n2 - Fly slow and sleady to get home safely.");
 				home = scan.nextInt();
 				if(home == 1){
 					System.out.println("Congrats " + playerName + " you have made it home to your family with out any issues!");
