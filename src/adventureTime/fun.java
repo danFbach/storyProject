@@ -40,6 +40,15 @@ public class fun {
 							+ "2 - Play it safe and let your colleague do YOUR job.\n"
 							+ "3 - Collect Data from within the landing craft.");
 					marsNum = scan.nextInt();
+					switch(marsNum){
+						case(1):
+					}
+					
+					
+					
+					
+					
+					
 					if(marsNum == 1){
 						System.out.println("Well " + playerName + ", great choice. You have made an incredible discovery!..\n"
 								+ "There is LIFE on Mars! You must decide whether to...\n1 - Disclose your findings\n2 - Suppress the truth");
