@@ -42,14 +42,7 @@ public class fun {
 					marsNum = scan.nextInt();
 					switch(marsNum){
 						case(1):
-					}
-					
-					
-					
-					
-					
-					
-					if(marsNum == 1){
+					}if(marsNum == 1){
 						System.out.println("Well " + playerName + ", great choice. You have made an incredible discovery!..\n"
 								+ "There is LIFE on Mars! You must decide whether to...\n1 - Disclose your findings\n2 - Suppress the truth");
 						marsLife = scan.nextInt();
